@@ -15,6 +15,7 @@ while continuar == True:
             2) Resta
             3) Multiplicacion
             4) Division
+            5) Residuo
 
             Otras operaciones:
 
@@ -54,6 +55,14 @@ while continuar == True:
         print()
         resultado = num1 / num2
         print("Su resultado es: " + str(resultado))
+
+    elif opcion == 5:
+        num1 = int(input("Digite el primer numero: "))
+        print()
+        num2 = int(input("Digite el segundo numero: "))
+        print()
+        resultado = num1 % num2
+        print("Su resultado es: " + str(resultado))    
 
     elif opcion == 0:
         sys.exit()    
