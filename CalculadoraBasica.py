@@ -10,6 +10,8 @@ opcion = int(input("""
 
             1) Suma
             2) Resta
+            3) Multiplicacion
+            4) Division
 
             Otras operaciones:
 
@@ -32,4 +34,20 @@ elif opcion == 2:
     num2 = int(input("Digite el segundo numero: "))
     print()
     resultado = num1 - num2
+    print("Su resultado es: " + str(resultado))
+
+elif opcion == 3:
+    num1 = int(input("Digite el primer numero: "))
+    print()
+    num2 = int(input("Digite el segundo numero: "))
+    print()
+    resultado = num1 * num2
+    print("Su resultado es: " + str(resultado))
+
+elif opcion == 4:
+    num1 = int(input("Digite el primer numero: "))
+    print()
+    num2 = int(input("Digite el segundo numero: "))
+    print()
+    resultado = num1 / num2
     print("Su resultado es: " + str(resultado))
