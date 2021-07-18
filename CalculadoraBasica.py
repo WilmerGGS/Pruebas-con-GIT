@@ -39,9 +39,6 @@ while continuar == True:
         resultado = num1 - num2
         print("Su resultado es: " + str(resultado))
 
-    elif opcion == 0:
-        sys.exit()
-
     elif opcion == 3:
         num1 = int(input("Digite el primer numero: "))
         print()
@@ -57,3 +54,6 @@ while continuar == True:
         print()
         resultado = num1 / num2
         print("Su resultado es: " + str(resultado))
+
+    elif opcion == 0:
+        sys.exit()    
