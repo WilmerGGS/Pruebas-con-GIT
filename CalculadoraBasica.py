@@ -9,6 +9,7 @@ opcion = int(input("""
             Operaciones disponibles:
 
             1) Suma
+            2) Resta
 
             Otras operaciones:
 
@@ -23,4 +24,12 @@ if opcion == 1:
     num2 = int(input("Digite el segundo numero: "))
     print()
     resultado = num1 + num2
+    print("Su resultado es: " + str(resultado))
+
+elif opcion == 2:
+    num1 = int(input("Digite el primer numero: "))
+    print()
+    num2 = int(input("Digite el segundo numero: "))
+    print()
+    resultado = num1 - num2
     print("Su resultado es: " + str(resultado))
