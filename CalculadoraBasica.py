@@ -16,6 +16,7 @@ while continuar == True:
             3) Multiplicacion
             4) Division
             5) Residuo
+            6) Potencia
 
             Otras operaciones:
 
@@ -62,6 +63,14 @@ while continuar == True:
         num2 = int(input("Digite el segundo numero: "))
         print()
         resultado = num1 % num2
+        print("Su resultado es: " + str(resultado))    
+
+    elif opcion == 6:
+        num1 = int(input("Digite el primer numero: "))
+        print()
+        num2 = int(input("Digite el segundo numero: "))
+        print()
+        resultado = num1 ** num2
         print("Su resultado es: " + str(resultado))    
 
     elif opcion == 0:
