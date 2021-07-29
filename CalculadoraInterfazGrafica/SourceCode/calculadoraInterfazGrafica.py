@@ -88,8 +88,8 @@ botonSuma.place(x=300, y=320)
 botonResta = tkinter.Button(ventana, text= "-", width= 6, height= 4, command= lambda: numeroPulsado("-"), font=("Arial", 10), bg="#FFFEFD", activebackground="#D5D5D5", activeforeground="#070807", relief="flat", overrelief="raised")
 botonResta.place(x=300, y=240)
 
-botonMultiplicacion = tkinter.Button(ventana, text= "x", width= 6, height= 4, command= lambda: numeroPulsado("*"), font=("Arial", 10), bg="#FFFEFD", activebackground="#D5D5D5", activeforeground="#070807", relief="flat", overrelief="raised")
-botonMultiplicacion.place(x=300, y=160)
+#botonMultiplicacion = tkinter.Button(ventana, text= "x", width= 6, height= 4, command= lambda: numeroPulsado("*"), font=("Arial", 10), bg="#FFFEFD", activebackground="#D5D5D5", activeforeground="#070807", relief="flat", overrelief="raised")
+#botonMultiplicacion.place(x=300, y=160)
 
 botonDivision = tkinter.Button(ventana, text= "÷", width= 6, height= 4, command= lambda: numeroPulsado("/"), font=("Arial", 10), bg="#FFFEFD", activebackground="#D5D5D5", activeforeground="#070807", relief="flat", overrelief="raised")
 botonDivision.place(x=300, y=80)
